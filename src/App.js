@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from 'react'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <form>
+        <button class="add_it" type="button">Remember this day 1 type stuff?       <br></br>Click a button with way too much text in it.</button>
+      </form>
+      <br></br>
+      <span class="keepgoing">do</span>
+      <br></br>
+      <form>
+        <button class="reset" type="button">back to 0</button>
+      </form>
+    </>
   );
 }
 
