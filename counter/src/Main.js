@@ -25,9 +25,12 @@ class Main extends Component {
                 <div>
                 <h1>It adds numbers and resets</h1>
                 <h1>{this.state.num}</h1>
-                <button className='btn-success' onClick={this.increment}>Inc</button>
-                <button className='btn-danger'>De</button>
-                <button className='btn-primary' onClick={this.toZero} >Nue</button>
+                    <div className='circular'>
+                        <button className='btn-success' onClick={this.increment}>Add a number</button>
+                    </div>
+                    <div className='circular'>
+                        <button className='btn-primary' onClick={this.toZero}>Reset to zero</button>
+                    </div>
                 </div>
           );
     }
