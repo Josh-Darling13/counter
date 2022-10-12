@@ -20,8 +20,18 @@ code {
   flex-flow: column;
 }
 
-button{
+button {
   font-size: 1.3rem;
   padding: 5%;
   border-radius: 15px;
+}
+
+button:hover{
+  color: #FFF;
+  background-color: #000;
+  border-color: aqua;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  padding: 5%;
+
 }
